@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/6408291-fundo-azul-moderno-fundo-abstrato-azul-para-modelos-cartoes-e-sites-vetor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    display: inline-block;
+    margin-right: 10px;
+    animation: fadeInDown 1s ease;
+    color: black;
+}
+
+.life {
+    color: #1eceff;
+    animation: fadeInDown 1s ease;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    /* Define as margens automáticas */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 500px;
+    width: 1000px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    /* Posiciona o container absolutamente */
+    top: 50%;
+    /* Posiciona o topo do container a 50% da altura da janela */
+    left: 50%;
+    /* Posiciona a esquerda do container a 50% da largura da janela */
+    transform: translate(-50%, -50%);
+    /* Move o container de volta metade de sua largura e metade de sua altura */
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1eceff;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+header,
+.container {
+    animation: fadeIn 1s ease;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1eceff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #0da8d2;
+}
+
+
+/* Adicionei estilos para o footer */
+footer {
+    background-color: white;
+    /* Fundo branco */
+    color: black;
+    /* Texto preto */
+    text-align: center;
+    /* Alinhamento centralizado */
+    padding: 20px 0;
+    /* Espaçamento interno */
+    position: absolute;
+    /* Posicionamento absoluto */
+    width: 100%;
+    /* Largura total */
+    bottom: 0;
+    /* Alinha o footer ao final da página */
+}
